@@ -1,5 +1,5 @@
-data
-__pycache__
-wandb
-data_cleaning.py
-split_data.py
+DeepLearningModel/data
+DeepLearningModel/__pycache__
+DeepLearningModel/wandb
+DeepLearningModel/data_cleaning.py
+DeepLearningModel/split_data.py
