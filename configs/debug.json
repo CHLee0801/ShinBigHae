@@ -1,0 +1,23 @@
+{
+    "embedding_dim" : 38,
+    "num_train_epochs" : 100,
+    "output_dir" : "",
+    "train_path" : "data/v1_38col/train.csv",
+    "eval_path":"data/v1_38col/test.csv",
+    "train_batch_size" : 2048,
+    "eval_batch_size": 128,
+    "gradient_accumulation_steps": 5,
+    "learning_rate" : 1e-4,
+    "ngpu" : 1,
+    "num_workers" : 40,
+    "check_val_every_n_epoch":1,
+    "accelerator" : "deepspeed_stage_2",
+    "fp16" : true,
+    "CUDA_VISIBLE_DEVICES" : "12",
+    "wandb_log": false,
+    "wandb_project": "v0_debug",
+    "wandb_run_name" : "sinbighae",
+    "check_validation" : false,
+    "resume_from_checkpoint": false,
+    "checkpoint_path" : ""
+}
