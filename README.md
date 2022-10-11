@@ -22,7 +22,11 @@ pip install -r requirements.txt
 주최 측에서 제공하는 데이터를 공개할 수 없기에 실행가능한 Source Code만 제공합니다.
 
 > Data Analysis
+
+
 데이터 분석에 활용된 코드입니다.
 
 > DeepLearningModel
+
+
 AutoEncoder, Bert에 대한 실행 코드입니다. Pytorch-Lightning 기반으로 구현하였습니다.
